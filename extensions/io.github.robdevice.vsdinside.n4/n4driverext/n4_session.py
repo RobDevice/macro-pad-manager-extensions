@@ -41,6 +41,10 @@ class N4DeviceSession:
         self._error: str | None = None
         self._event_callback = event_callback
 
+    def set_event_callback(self, callback: Callable[[dict], None] | None) -> None:
+        with self._state_lock:
+            self._event_callback = callback
+
     def start(self, node: str | Path, brightness: int | None = None) -> None:
         node_path = Path(node)
         with self._state_lock:
