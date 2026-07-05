@@ -1,0 +1,67 @@
+{
+  "catalogue_name": "Official Macro Pad Manager Catalogue",
+  "extensions": [
+    {
+      "author": "Macro Pad Manager",
+      "changelog_url": "https://github.com/RobDevice/macro-pad-manager/releases",
+      "description": "Sample curated driver that demonstrates offline official catalogue installs.",
+      "documentation_url": "https://github.com/RobDevice/macro-pad-manager/blob/main/docs/USER_GUIDE.md",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/com.macropadmanager.official.virtualpad-1.0.0.zip",
+      "homepage_url": "https://github.com/RobDevice/macro-pad-manager",
+      "id": "com.macropadmanager.official.virtualpad",
+      "licence": "GPL-3.0-only",
+      "min_app_version": "0.1.0",
+      "name": "Official Virtual Pad Driver",
+      "release_notes": "Initial curated sample driver for offline catalogue validation.",
+      "repository_url": "https://github.com/RobDevice/macro-pad-manager",
+      "review_notes": "Reviewed for extension packaging, schema compatibility, and non-root safety.",
+      "screenshots": [],
+      "supported_devices": [
+        "Official Virtual Pad"
+      ],
+      "type": "driver",
+      "version": "1.0.0"
+    },
+    {
+      "author": "Macro Pad Manager",
+      "changelog_url": "https://github.com/RobDevice/macro-pad-manager/releases",
+      "description": "Sample curated action plug-in that types configured text through the virtual keyboard.",
+      "documentation_url": "https://github.com/RobDevice/macro-pad-manager/blob/main/docs/USER_GUIDE.md",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/com.macropadmanager.official.echo-1.0.0.zip",
+      "homepage_url": "https://github.com/RobDevice/macro-pad-manager",
+      "id": "com.macropadmanager.official.echo",
+      "licence": "GPL-3.0-only",
+      "min_app_version": "0.1.0",
+      "name": "Official Echo Plug-in",
+      "release_notes": "Initial curated sample plug-in for offline catalogue validation.",
+      "repository_url": "https://github.com/RobDevice/macro-pad-manager",
+      "review_notes": "Reviewed for extension packaging, schema compatibility, and safe built-in action use.",
+      "screenshots": [],
+      "type": "action_plugin",
+      "version": "1.0.0"
+    },
+    {
+      "author": "RobDevice",
+      "changelog_url": "https://github.com/RobDevice/macro-pad-manager/releases",
+      "description": "Driver extension for the VSDinside/HOTSPOTEK N4.",
+      "documentation_url": "https://github.com/RobDevice/macro-pad-manager-extensions/tree/main/extensions/io.github.robdevice.vsdinside.n4",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.vsdinside.n4-0.1.0.zip",
+      "homepage_url": "https://github.com/RobDevice/macro-pad-manager-extensions",
+      "id": "io.github.robdevice.vsdinside.n4",
+      "licence": "GPL-3.0-only",
+      "min_app_version": "0.1.0",
+      "name": "VSDinside N4 Driver",
+      "release_notes": "Initial catalogue-packaged driver extension for the VSDinside/HOTSPOTEK N4.",
+      "repository_url": "https://github.com/RobDevice/macro-pad-manager-extensions/tree/main/extensions/io.github.robdevice.vsdinside.n4",
+      "review_notes": "Packaged as a normal driver extension and intended to be installed through the Extensions tab.",
+      "screenshots": [],
+      "supported_devices": [
+        "VSDinside / HOTSPOTEK N4"
+      ],
+      "type": "driver",
+      "version": "0.1.0"
+    }
+  ],
+  "generated_at": "2026-06-21T00:00:00Z",
+  "schema_version": 1
+}
