@@ -24,7 +24,7 @@ class N4DriverSupport(Driver):
         type="driver",
         id="io.github.robdevice.vsdinside.n4",
         name="VSDinside N4 Driver",
-        version="0.1.0",
+        version="0.1.1",
         author="RobDevice",
         licence="GPL-3.0-only",
         description="Driver extension for the VSDinside/HOTSPOTEK N4.",
