@@ -105,6 +105,12 @@ class N4DeviceSession:
             self._write_packet(report)
         self._write_packet(protocol.finish_command())
 
+    def upload_boot_logo(self, image_bytes: bytes, logo_type: int = 0x02) -> None:
+        self._write_packet(protocol.logo_size_header(len(image_bytes), logo_type=logo_type))
+        for report in payload_reports(image_bytes):
+            self._write_packet(report)
+        self._write_packet(protocol.finish_command())
+
     def _send_startup(self, brightness: int | None = None) -> None:
         self._write_packet(protocol.handshake())
         self._write_packet(protocol.heartbeat())

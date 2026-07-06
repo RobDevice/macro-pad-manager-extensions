@@ -386,6 +386,19 @@ def build_ai_boot_logo(path: Path | str = AI_ARTWORK_PATH) -> BootLogoUploadTarg
     )
 
 
+def build_boot_logo_from_path(path: Path | str) -> BootLogoUploadTarget:
+    image_path = Path(path)
+    if not image_path.exists():
+        raise FileNotFoundError(f"Boot logo source not found: {image_path}")
+    with Image.open(image_path) as source:
+        image = source.convert("RGB")
+    return BootLogoUploadTarget(
+        width=N4_BOOT_LOGO_WIDTH,
+        height=N4_BOOT_LOGO_HEIGHT,
+        image=encode_vsd_boot_logo_jpeg(image),
+    )
+
+
 def n4_main_button_display_address(button: int) -> int:
     try:
         return N4_MAIN_BUTTON_DISPLAY_ADDRESSES[button]

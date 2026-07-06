@@ -15,6 +15,7 @@ from .n4_icons import (
 )
 from .n4_session import N4DeviceSession
 from .vendor.vsdn4 import hidraw
+from .vendor.vsdn4.icon_upload import build_boot_logo_from_path
 
 
 class N4DriverSupport(Driver):
@@ -47,7 +48,7 @@ class N4DriverSupport(Driver):
         }
 
     def default_settings(self) -> dict:
-        return {"brightness": 80}
+        return {"brightness": 80, "boot_splash_path": ""}
 
     def settings_schema(self) -> dict:
         return {
@@ -59,7 +60,13 @@ class N4DriverSupport(Driver):
                     "maximum": 100,
                     "default": 80,
                     "title": "Brightness",
-                }
+                },
+                "boot_splash_path": {
+                    "type": "string",
+                    "default": "",
+                    "title": "Boot splash",
+                    "format": "image-asset",
+                },
             },
         }
 
@@ -249,10 +256,31 @@ class N4DriverSupport(Driver):
     def force_heartbeat(self) -> bool:
         return self._session.force_heartbeat()
 
-    def apply_runtime_settings(self, driver_settings: dict, changed_keys: set[str] | None = None) -> None:
+    def apply_runtime_settings(
+        self,
+        driver_settings: dict,
+        changed_keys: set[str] | None = None,
+        *,
+        asset_loader=None,
+    ) -> None:
         changed = changed_keys or set(driver_settings)
         if "brightness" in changed:
             self._session.set_brightness(int(driver_settings.get("brightness", self.default_settings().get("brightness", 80))))
+        if "boot_splash_path" in changed:
+            snapshot = self._session.snapshot()
+            if not snapshot.connected or asset_loader is None:
+                return
+            relative_path = str(driver_settings.get("boot_splash_path", "") or "").strip()
+            if not relative_path:
+                return
+            resolved = asset_loader(relative_path)
+            if resolved is None:
+                return
+            try:
+                target = build_boot_logo_from_path(resolved)
+            except (OSError, ValueError):
+                return
+            self._session.upload_boot_logo(target.image)
 
     def sync_control_visual(self, control_id: str, module_payload: dict, asset_loader=None) -> None:
         snapshot = self._session.snapshot()
