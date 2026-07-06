@@ -8,5 +8,6 @@
   "licence": "GPL-3.0-only",
   "description": "Driver extension for the VSDinside/HOTSPOTEK N4.",
   "min_app_version": "0.1.0",
-  "entry_point": "n4driverext:Driver"
+  "entry_point": "n4driverext:Driver",
+  "icon_path": "icon.png"
 }

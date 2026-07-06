@@ -47,6 +47,7 @@
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-extensions/tree/main/extensions/io.github.robdevice.vsdinside.n4",
       "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.vsdinside.n4-0.1.0.zip",
       "homepage_url": "https://github.com/RobDevice/macro-pad-manager-extensions",
+      "icon_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/extensions/io.github.robdevice.vsdinside.n4/icon.png",
       "id": "io.github.robdevice.vsdinside.n4",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
