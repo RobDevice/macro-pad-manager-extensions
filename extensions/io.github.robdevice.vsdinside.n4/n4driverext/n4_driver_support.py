@@ -311,3 +311,12 @@ class N4DriverSupport(Driver):
         touch_address = touch_address_from_control_id(control_id)
         if touch_address is not None:
             self._session.upload_button_image(touch_address, render_blank_touch_icon())
+
+    def clear_all_visuals(self) -> None:
+        snapshot = self._session.snapshot()
+        if not snapshot.connected:
+            return
+        for button_address in range(1, 11):
+            self._session.upload_button_image(button_address, render_blank_button_icon(background="#000000"))
+        for touch_address in range(0x40, 0x44):
+            self._session.upload_button_image(touch_address, render_blank_touch_icon(background="#000000"))
