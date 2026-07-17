@@ -28,20 +28,20 @@
       "changelog_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect/releases",
       "description": "MSFS 2020 SimVars and Key Events through SimConnect.",
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect#readme",
-      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.7.0.zip",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.8.0.zip",
       "homepage_url": "",
       "icon_url": "",
       "id": "io.github.robdevice.msfs.simconnect",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
       "name": "MSFS SimConnect",
-      "release_notes": "Adds per-SimVar readout precision. Altitude defaults to whole numbers, while other numeric values default to two decimal places.",
+      "release_notes": "Explains connection failures clearly: refused connections identify that no SimConnect service is listening at the configured address, while timeouts explain the reachability check.",
       "repository_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect",
       "review_notes": "Uses standard SimConnect only; aircraft-specific L:Vars, H: events, and dynamic Input Events are out of scope for this release.",
       "screenshots": [],
       "supported_devices": [],
       "type": "feature_pack",
-      "version": "0.7.0"
+      "version": "0.8.0"
     }
   ],
   "generated_at": "2026-07-17T00:00:00Z",
