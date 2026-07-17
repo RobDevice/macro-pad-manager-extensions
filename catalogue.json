@@ -28,20 +28,20 @@
       "changelog_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect/releases",
       "description": "MSFS 2020 SimVars and Key Events through SimConnect.",
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect#readme",
-      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.9.1.zip",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.10.0.zip",
       "homepage_url": "",
       "icon_url": "",
       "id": "io.github.robdevice.msfs.simconnect",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
       "name": "MSFS SimConnect",
-      "release_notes": "Fixes standard SimConnect Key Event delivery for MSFS Cockpit Dial controls, including Heading Bug and Autopilot Altitude.",
+      "release_notes": "Adds MSFS-owned live status, level, gauge, compass, frequency, clock, position, and warning display modules with optional SimConnect actions.",
       "repository_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect",
       "review_notes": "Uses standard SimConnect only; aircraft-specific L:Vars, H: events, and dynamic Input Events are out of scope for this release.",
       "screenshots": [],
       "supported_devices": [],
       "type": "feature_pack",
-      "version": "0.9.1"
+      "version": "0.10.0"
     }
   ],
   "generated_at": "2026-07-18T00:00:00Z",
