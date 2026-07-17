@@ -3,18 +3,18 @@
   "extensions": [
     {
       "author": "RobDevice",
-      "changelog_url": "https://github.com/RobDevice/macro-pad-manager/releases",
+      "changelog_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4/releases",
       "description": "Driver extension for the VSDinside/HOTSPOTEK N4.",
-      "documentation_url": "https://github.com/RobDevice/macro-pad-manager-extensions/tree/main/extensions/io.github.robdevice.vsdinside.n4",
+      "documentation_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4#readme",
       "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.vsdinside.n4-0.1.2.zip",
-      "homepage_url": "https://github.com/RobDevice/macro-pad-manager-extensions",
-      "icon_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/extensions/io.github.robdevice.vsdinside.n4/icon.png",
+      "homepage_url": "",
+      "icon_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-hotspotek-n4/main/icon.png",
       "id": "io.github.robdevice.vsdinside.n4",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
       "name": "VSDinside N4 Driver",
       "release_notes": "Adds boot splash device settings and upload support for the VSDinside/HOTSPOTEK N4.",
-      "repository_url": "https://github.com/RobDevice/macro-pad-manager-extensions/tree/main/extensions/io.github.robdevice.vsdinside.n4",
+      "repository_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4",
       "review_notes": "Packaged as a normal driver extension and intended to be installed through the Extensions tab.",
       "screenshots": [],
       "supported_devices": [
