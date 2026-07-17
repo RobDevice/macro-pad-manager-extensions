@@ -6,14 +6,14 @@
       "changelog_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4/releases",
       "description": "Driver extension for the VSDinside/HOTSPOTEK N4.",
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4#readme",
-      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.vsdinside.n4-0.1.2.zip",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.vsdinside.n4-0.2.0.zip",
       "homepage_url": "",
       "icon_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-hotspotek-n4/main/icon.png",
       "id": "io.github.robdevice.vsdinside.n4",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
       "name": "VSDinside N4 Driver",
-      "release_notes": "Adds boot splash device settings and upload support for the VSDinside/HOTSPOTEK N4.",
+      "release_notes": "Adds native-size live visual rendering so extension displays are uploaded without distortion, extra framing, or text overlays.",
       "repository_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4",
       "review_notes": "Packaged as a normal driver extension and intended to be installed through the Extensions tab.",
       "screenshots": [],
@@ -21,27 +21,27 @@
         "VSDinside / HOTSPOTEK N4"
       ],
       "type": "driver",
-      "version": "0.1.2"
+      "version": "0.2.0"
     },
     {
       "author": "RobDevice",
       "changelog_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect/releases",
       "description": "MSFS 2020 SimVars and Key Events through SimConnect.",
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect#readme",
-      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.11.0.zip",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.12.0.zip",
       "homepage_url": "",
       "icon_url": "",
       "id": "io.github.robdevice.msfs.simconnect",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
       "name": "MSFS SimConnect",
-      "release_notes": "Makes the MSFS display modules ready to use with sensible defaults, native colour pickers, an actual latitude/longitude display, and matching device and GUI visuals.",
+      "release_notes": "Redesigns live MSFS displays for the physical control size with concise labels, friendly connection states, and purpose-specific visual layouts.",
       "repository_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect",
       "review_notes": "Uses standard SimConnect only; aircraft-specific L:Vars, H: events, and dynamic Input Events are out of scope for this release.",
       "screenshots": [],
       "supported_devices": [],
       "type": "feature_pack",
-      "version": "0.11.0"
+      "version": "0.12.0"
     }
   ],
   "generated_at": "2026-07-18T00:00:00Z",
