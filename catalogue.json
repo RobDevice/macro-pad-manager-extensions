@@ -38,22 +38,22 @@
       "changelog_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect/releases",
       "description": "MSFS 2020 SimVars and Key Events through SimConnect.",
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect#readme",
-      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.39.0.zip",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.40.0.zip",
       "homepage_url": "",
       "icon_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-msfs-simconnect/main/assets/msfs-simconnect.png",
       "id": "io.github.robdevice.msfs.simconnect",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
       "name": "MSFS SimConnect",
-      "release_notes": "Renames the MSFS Status module to MSFS Interactive Status.",
+      "release_notes": "Adds a six-state Transponder Mode preset and a matching SimConnect-controlled cockpit dial.",
       "repository_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect",
       "review_notes": "Uses standard SimConnect only; aircraft-specific L:Vars, H: events, and dynamic Input Events are out of scope for this release.",
       "screenshots": [],
       "supported_devices": [],
       "type": "feature_pack",
-      "version": "0.39.0"
+      "version": "0.40.0"
     }
   ],
-  "generated_at": "2026-07-18T22:00:00Z",
+  "generated_at": "2026-07-18T23:00:00Z",
   "schema_version": 1
 }
