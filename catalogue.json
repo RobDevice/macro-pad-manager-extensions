@@ -25,6 +25,16 @@
     },
     {
       "author": "RobDevice",
+      "adds": [
+        "module",
+        "input",
+        "action"
+      ],
+      "categories": [
+        "Flight Sim",
+        "MSFS 2020",
+        "SimConnect"
+      ],
       "changelog_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect/releases",
       "description": "MSFS 2020 SimVars and Key Events through SimConnect.",
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect#readme",
