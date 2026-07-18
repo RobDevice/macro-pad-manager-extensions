@@ -6,14 +6,14 @@
       "changelog_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4/releases",
       "description": "Driver extension for the VSDinside/HOTSPOTEK N4.",
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4#readme",
-      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.vsdinside.n4-0.5.0.zip",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.vsdinside.n4-0.6.0.zip",
       "homepage_url": "",
       "icon_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-hotspotek-n4/main/icon.png",
       "id": "io.github.robdevice.vsdinside.n4",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
       "name": "VSDinside N4 Driver",
-      "release_notes": "Keeps device state in sync after unplugging, including automatic polling, Detect Device, and Reload Daemon State.",
+      "release_notes": "Uses black as the fallback background for unconfigured button and touch visuals.",
       "repository_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4",
       "review_notes": "Packaged as a normal driver extension and intended to be installed through the Extensions tab.",
       "screenshots": [],
@@ -21,27 +21,27 @@
         "VSDinside / HOTSPOTEK N4"
       ],
       "type": "driver",
-      "version": "0.5.0"
+      "version": "0.6.0"
     },
     {
       "author": "RobDevice",
       "changelog_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect/releases",
       "description": "MSFS 2020 SimVars and Key Events through SimConnect.",
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect#readme",
-      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.17.0.zip",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.18.0.zip",
       "homepage_url": "",
       "icon_url": "",
       "id": "io.github.robdevice.msfs.simconnect",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
       "name": "MSFS SimConnect",
-      "release_notes": "Adds an Electrical Status group with battery, alternator, avionics circuit, and battery/main/avionics/generator bus indicators. Battery, alternator, and generator presets include safe default toggles.",
+      "release_notes": "Uses black as the default and fallback background for MSFS visual modules.",
       "repository_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect",
       "review_notes": "Uses standard SimConnect only; aircraft-specific L:Vars, H: events, and dynamic Input Events are out of scope for this release.",
       "screenshots": [],
       "supported_devices": [],
       "type": "feature_pack",
-      "version": "0.17.0"
+      "version": "0.18.0"
     }
   ],
   "generated_at": "2026-07-18T00:00:00Z",
