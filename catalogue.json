@@ -6,14 +6,14 @@
       "changelog_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4/releases",
       "description": "Driver extension for the VSDinside/HOTSPOTEK N4.",
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4#readme",
-      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.vsdinside.n4-0.4.0.zip",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.vsdinside.n4-0.5.0.zip",
       "homepage_url": "",
       "icon_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-hotspotek-n4/main/icon.png",
       "id": "io.github.robdevice.vsdinside.n4",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
       "name": "VSDinside N4 Driver",
-      "release_notes": "Correctly detects a disconnected HID device instead of retaining a stale connected state after unplugging.",
+      "release_notes": "Keeps device state in sync after unplugging, including automatic polling, Detect Device, and Reload Daemon State.",
       "repository_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4",
       "review_notes": "Packaged as a normal driver extension and intended to be installed through the Extensions tab.",
       "screenshots": [],
@@ -21,7 +21,7 @@
         "VSDinside / HOTSPOTEK N4"
       ],
       "type": "driver",
-      "version": "0.4.0"
+      "version": "0.5.0"
     },
     {
       "author": "RobDevice",
