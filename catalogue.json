@@ -6,14 +6,14 @@
       "changelog_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4/releases",
       "description": "Driver extension for the VSDinside/HOTSPOTEK N4.",
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4#readme",
-      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.vsdinside.n4-0.6.0.zip",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.vsdinside.n4-0.6.1.zip",
       "homepage_url": "",
       "icon_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-hotspotek-n4/main/icon.png",
       "id": "io.github.robdevice.vsdinside.n4",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
       "name": "VSDinside N4 Driver",
-      "release_notes": "Uses black as the fallback background for unconfigured button and touch visuals.",
+      "release_notes": "Renders extension-provided runtime readouts through the generic driver readout contract.",
       "repository_url": "https://github.com/RobDevice/macro-pad-manager-hotspotek-n4",
       "review_notes": "Packaged as a normal driver extension and intended to be installed through the Extensions tab.",
       "screenshots": [],
@@ -21,7 +21,7 @@
         "VSDinside / HOTSPOTEK N4"
       ],
       "type": "driver",
-      "version": "0.6.0"
+      "version": "0.6.1"
     },
     {
       "author": "RobDevice",
