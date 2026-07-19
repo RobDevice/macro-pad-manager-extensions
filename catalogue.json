@@ -38,20 +38,20 @@
       "changelog_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect/releases",
       "description": "MSFS 2020 SimVars and Key Events through SimConnect.",
       "documentation_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect#readme",
-      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.60.0.zip",
+      "download_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-extensions/main/artifacts/io.github.robdevice.msfs.simconnect-0.61.0.zip",
       "homepage_url": "",
       "icon_url": "https://raw.githubusercontent.com/RobDevice/macro-pad-manager-msfs-simconnect/main/assets/msfs-simconnect.png",
       "id": "io.github.robdevice.msfs.simconnect",
       "licence": "GPL-3.0-only",
       "min_app_version": "0.1.0",
       "name": "MSFS SimConnect",
-      "release_notes": "Adds MSFS Autopilot Reference with paired altitude, VS/FLC, COM 1/2, and NAV 1/2 readouts. Removes the deprecated single-value Frequency and Position modules.",
+      "release_notes": "Stacks paired autopilot values vertically, removes redundant labels from altitude and VS/FLC, adds fine and coarse altitude dial presets, and fixes the VS reference readout.",
       "repository_url": "https://github.com/RobDevice/macro-pad-manager-msfs-simconnect",
       "review_notes": "Uses standard SimConnect only. Aircraft-specific L:Vars and H: events remain out of scope; VNAV can use a user-selected current-aircraft Input Event.",
       "screenshots": [],
       "supported_devices": [],
       "type": "feature_pack",
-      "version": "0.60.0"
+      "version": "0.61.0"
     }
   ],
   "generated_at": "2026-07-19T00:00:00Z",
